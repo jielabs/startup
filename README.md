@@ -4,7 +4,6 @@ startup
 ###Objective:
 - The documentation of setting up a full-stack collaborative development environment for a software project.
 - Vagrant files to install essential tools in virtualbox.
-- Prefer self-hosted, open source solutions over SaaS/PaaS/Iaas/Cloud-based solutions (marked with *). I.e., the only things you need pay are domains and servers.
 
 ###What do you need:
 - Dev machines, Operating systems
@@ -15,13 +14,15 @@ startup
 - Development tools
     - Langauge
         - C++, Java, Python, etc.
+    - Development tool
+        - make, maven, pybuilder, virtualenv, lint, etc.
     - IDE
         - Vim, Emacs, Eclipse, XCode, Visual Studio, etc.
     - Framework, SDK, libraries
-        - Django, Jquery, Node.js, Andriod SDK, Hadoop, Google Maps API, etc.
+        - Django, Jquery, Node.js, Andriod SDK, Hadoop, Protobuf, Google Maps API, etc.
     - Databases
         - RDBM or NoSQL
-    - Tools and utilities
+    - System tools
         - Memcached, Redis, RabbitMQ, Vagrant, etc.
     - Web server
         - Nginx or Apache
@@ -60,13 +61,6 @@ The below lists my choice for self-hosted development platform.
         - Easy to use, friendly for developers, as cheap as $5/month
     - [Linode](http://linode.com)
         - A leading VPS company.
-- Cloud Computing Platforms
-    - [OpenStack](http://openstack.org)
-        - Open source cloud computing platform
-    - [Amazon AWS](http://aws.amazon.com) *
-        - Market Leader
-    - [Google Compute Engine](https://cloud.google.com/products/compute-engine) *
-        - Made by Google
 
 ### Source code management system
 - [Git](http://git-scm.com)
@@ -77,8 +71,6 @@ The below lists my choice for self-hosted development platform.
 - [GitLab](http://www.gitlab.com)
     - An alternative to github, open source, but hosted by yourself.
     - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories) has a pre-installed vm image to setup a gitlab in a minute.
-- [GitHub](http://www.github.com) *
-    - A popular git hosting service and developer's community
 
 ### Continuous Integration
 - [Jenkins](http://jenkins-ci.org/)
@@ -86,7 +78,15 @@ The below lists my choice for self-hosted development platform.
 
 
 ## Cloud-based solution:
-- [GitHub](http://github.com)
+- Cloud Computing Platforms
+    - [OpenStack](http://openstack.org)
+        - Open source cloud computing platform
+    - [Amazon AWS](http://aws.amazon.com)
+        - Market Leader
+    - [Google Compute Engine](https://cloud.google.com/products/compute-engine) *
+        - Made by Google
+- [GitHub](http://www.github.com)
+    - A popular git hosting service and developer's community
 - [Atlassian](https://www.atlassian.com)
     - Pretty much everything you need for collaborative development enviornment
 - [Thoughtworks](http://thoughtworks.com)
