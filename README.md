@@ -62,6 +62,18 @@ The below lists my choice for self-hosted development platform.
     - [Linode](http://linode.com)
         - A leading VPS company.
 
+### Development tools
+- Editor and IDE
+    - Vim, Emacs, Eclipse
+- Language
+    - Python, C++, R
+- Serialization
+    - [Protobuf](https://code.google.com/p/protobuf/)
+- [Vagrant](http://www.vagrantup.com/)
+    - An open-source software for creating and configuring virtual development environments. Very handly to set up the dev environment on VMs or VPS/Cloud.
+    - [Vagrant for Digital Ocean](https://github.com/smdahlen/vagrant-digitalocean)
+    - [Vagrant for AWS](https://github.com/mitchellh/vagrant-aws)
+
 ### Source code management system
 - [Git](http://git-scm.com)
     - A popular distributed SCM
