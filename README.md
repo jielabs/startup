@@ -71,6 +71,7 @@ The below lists my choice for self-hosted development platform.
 - [GitLab](http://www.gitlab.com)
     - An alternative to github, open source, but hosted by yourself.
     - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories) has a pre-installed vm image to setup a gitlab in a minute.
+    - [Install GitLab using Chef solo](https://gitlab.com/gitlab-org/cookbook-gitlab/blob/master/README.md)
 
 ### Continuous Integration
 - [Jenkins](http://jenkins-ci.org/)
